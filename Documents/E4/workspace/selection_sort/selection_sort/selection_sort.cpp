@@ -24,7 +24,6 @@ void my_sort(IT it_b, IT it_e) {
 
             if (*it_2 < *it_min) {
                 it_min = it_2;
-
             }
 
         }
@@ -37,6 +36,7 @@ void my_sort(IT it_b, IT it_e) {
     }
 
 }
+
 
 template<class Cont>
 void my_show(Cont c) {
@@ -58,6 +58,7 @@ void my_show(Cont c) {
 
     outfile.close();
 }
+
 
 template<class Cont>
 void sort_and_show(Cont c) {
@@ -99,7 +100,6 @@ void readContainer(std::ifstream& file) {
 
     std::cout << str << std::endl;
 
-
     switch (type_container) {
     case'v':
     {
@@ -129,8 +129,8 @@ void main()
 
     std::ifstream file;
     file.open("example_3.txt");
-    if (file.is_open()) {
 
+    if (file.is_open()) {
         std::cout << "Successfully opened file" << std::endl;
     }
     else {
@@ -146,7 +146,6 @@ void main()
     switch (type_file) {
     case'i':
     {
-
         return readContainer<int>(file);
         break;
     }
