@@ -101,23 +101,23 @@ void readContainer(std::ifstream& file) {
     std::cout << str << std::endl;
 
     switch (type_container) {
-    case'v':
-    {
-        return read<std::vector<T>, T>(file);
-        break;
-    }
-    case 'l':
-    {
-        return read<std::list<T>, T>(file);
-        break;
-    }
-    case 'd':
-    {
-        return read<std::deque<T>, T>(file);
-        break;
-    }
-    default:
-        throw std::runtime_error("Unknown type container");
+        case'v':
+        {
+            return read<std::vector<T>, T>(file);
+            break;
+        }
+        case 'l':
+        {
+            return read<std::list<T>, T>(file);
+            break;
+        }
+        case 'd':
+        {
+            return read<std::deque<T>, T>(file);
+            break;
+        }
+        default:
+            throw std::runtime_error("Unknown type container");
     }
 
 }
@@ -144,23 +144,23 @@ void main()
     type_file = str[0];
 
     switch (type_file) {
-    case'i':
-    {
-        return readContainer<int>(file);
-        break;
-    }
-    case 'f':
-    {
-        return readContainer<float>(file);
-        break;
-    }
-    case 's':
-    {
-        return readContainer<std::string>(file);
-        break;
-    }
-    default:
-        throw std::runtime_error("Unknown type file");
+        case'i':
+        {
+            return readContainer<int>(file);
+            break;
+        }
+        case 'f':
+        {
+            return readContainer<float>(file);
+            break;
+        }
+        case 's':
+        {
+            return readContainer<std::string>(file);
+            break;
+        }
+        default:
+            throw std::runtime_error("Unknown type file");
     }
 
 }
