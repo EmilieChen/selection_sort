@@ -1,0 +1,5 @@
+C:/Users/emili/Documents/E4/workspace/selection_sort/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/emili/Documents/E4/workspace/selection_sort/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/emili/Documents/E4/workspace/selection_sort/out/build/x64-debug/selection_sort/CMakeFiles/selection_sort.dir
+C:/Users/emili/Documents/E4/workspace/selection_sort/out/build/x64-debug/selection_sort/CMakeFiles/edit_cache.dir
+C:/Users/emili/Documents/E4/workspace/selection_sort/out/build/x64-debug/selection_sort/CMakeFiles/rebuild_cache.dir
